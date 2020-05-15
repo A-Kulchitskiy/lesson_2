@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.head a,
+p {
+    color: #ffffff;
+    font-size: 14px;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+
+/*MAIN=============
+====*/
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/*block-awesome===========
+========*/
+
+.title {
+    margin-top: 107px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    border: none;
+    width: 64px;
+    height: 2px;
+    background: #FF8D2D;
+}
+
+.main-name {
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+}
+
+.main-info {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.circle {
+    position: relative;
+    border: 2px solid #FF8D2D;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.lamp {
+    background-image: url(../img/icon/lamp.jpg);
+    width: 19px;
+    height: 28px;
+    margin: auto;
+}
+
+.keyboard {
+    background-image: url(../img/icon/keyboard.jpg);
+    width: 35px;
+    height: 21px;
+    margin: auto;
+}
+
+.lightning {
+    background-image: url(../img/icon/lightning.jpg);
+    width: 17px;
+    height: 31px;
+    margin: auto;
+}
+
+.block-info {
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+}
+
+.block-name {
+    font-size: 20px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    color: #333333;
+}
+
+.text {
+    font-size: 14px;
+    margin-top: 29px;
+    color: #86878B;
+}
+
+.block-info:nth-child(2) {
+    margin: 0 40px;
+}
